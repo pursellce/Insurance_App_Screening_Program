@@ -1,0 +1,19 @@
+README
+
+Author: Connor Pursell
+Date: 5/7/22
+Description: Program takes a csv input file containing fields of a property insurance application.
+It then checks if each application is complete, moving all incomplete applications to a vector for a final report.
+The program then checks each application against a series of tests to determine if it qualifies to be auto accepted,
+auto rejected, or is in need of review by an underwriter. Once the applications have been sorted into their appropriate
+categories, the program generates three reports detailing the applications of each type.
+
+Libraries used:
+iostream, string, vector, queue, stdlib.h, fstream, sstream
+
+Files:
+records.h records.cpp Input.csv, main.cpp
+
+To run: 
+g++ records.cpp main.cpp	
+./a.out
